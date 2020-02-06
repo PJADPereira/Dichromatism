@@ -73,7 +73,8 @@ Align reads to reference transcriptome:
 ```shell
 TRINITY_HOME/util/align_and_estimate_abundance.pl \
     --transcript species_specific_transcriptome.fa  \
-    --sample-file inputs_table \
+    --samples_file inputs_table \
+    --seqType fq \
     --est_method RSEM \
     --aln_method bowtie2 \
     --SS_lib_type FR \
@@ -85,7 +86,7 @@ TRINITY_HOME/util/align_and_estimate_abundance.pl \
 ```
 
 * --transcript: reference transcriptome (built in transcriptome.md).
-* --sample_file: A tab separated table with the following format:
+* --samples_file: A tab separated table with the following format:
 
     |  Condition       |   Repetition            |  R1_reads        |     R2_reads     |
     |:-------:|:-------------:|:----------------:|:----------------:|
