@@ -95,6 +95,7 @@ TRINITY_HOME/util/align_and_estimate_abundance.pl \
     |cond_B   | cond_B_rep1   | B_rep1_left.fq   | B_rep2_right.fq  |
     |cond_B   | cond_b_rep2   | B_rep2_left.fq   | B_rep2_right.fq  |
     |         |               |                  |                  |
+* --seqType: Type of sequence data, fastq or fasta.
 * --est_method: Abundance estimation method.
 * --aln_method: Aligner to use.
 * --SS_lib_type: Strand specific library type (R1 - F: R2 - R).
